@@ -24,7 +24,8 @@ nav{
   font-weight: bold;
 }
 
-nav ul{
+nav ul
+{
   float: right;
   margin-right: 50px;
 }
