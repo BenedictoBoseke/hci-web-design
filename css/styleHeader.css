@@ -26,12 +26,12 @@ nav{
 
 nav ul{
   float: right;
-  border: 1px solid red;
   margin-right: 50px;
 }
 
 nav ul li{
   display: inline-block;
   line-height: 75px;
-  margin: 0 10px;
+  margin: 0 50px;
+  font-weight: bold;
 }
