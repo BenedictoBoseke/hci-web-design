@@ -54,3 +54,9 @@ img{
   margin-left: -50px ;
 }
 
+@media (max-width: 1000px)
+{
+ nav label.logo{
+  font-size: 30px;
+ }
+}
