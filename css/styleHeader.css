@@ -16,7 +16,7 @@ nav{
   background: rgba(147, 179, 215, 0.909) ;
 }
 
-.logo{
+nav label.logo{
   color: white;
   font-size: 45px;
   line-height: 75px;
@@ -32,7 +32,25 @@ nav ul
 
 nav ul li{
   display: inline-block;
-  line-height: 75px;
+  line-height: 77px;
   margin: 0 50px;
-  font-weight: bold;
 }
+
+nav ul li a{
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+nav ul li a:hover{
+  color: white;
+}
+
+img{
+  position: absolute;
+  width: 250px;
+  margin-top: -87px;
+  margin-left: -50px ;
+}
+
