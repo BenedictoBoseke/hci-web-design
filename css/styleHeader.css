@@ -43,9 +43,14 @@ nav ul li a{
   color: rgb(0, 0, 0);
 }
 
+nav ul li a:hover{
+  color: white;
+}
+
 img{
   position: absolute;
   width: 250px;
   margin-top: -87px;
   margin-left: -50px ;
 }
+
