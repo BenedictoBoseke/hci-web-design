@@ -27,7 +27,8 @@ nav{
   background:rgba(147, 179, 215, 0.909)
 }
 
-nav ul{
+nav ul
+{
   float: right;
   margin-right: 50px;
 }
