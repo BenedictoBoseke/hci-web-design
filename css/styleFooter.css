@@ -24,14 +24,14 @@ ul{
 
 .footer{
     background:rgba(147, 179, 215, 0.909);
-    padding: 70px 0;
+    padding: 75px 0;
 }
 .fo-col{
     width: 25%;
     padding: 0 15px;
 }
 .fo-col h4{
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     text-transform: capitalize;
     margin-bottom: 35px;
@@ -50,7 +50,8 @@ ul{
 }
 
 .fo-col ul li a{
-    font-size: 16px;
+    width: 100px;
+    font-size: 14px;
     text-transform: capitalize;
     color: white;
     text-decoration: none;
@@ -66,13 +67,13 @@ ul{
 
 .fo-col .social-links a{
     display: inline-block;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background-color: rgba(255,255,255,0.2);
-    margin:0 10px 10px 0;
+    margin:0 12px 12px 0;
     text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
+    line-height: 35px;
+    border-radius: 25%;
     color: #fff;
     transition: all 0.5s ease;
 }
