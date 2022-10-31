@@ -9,15 +9,16 @@
 }
 
 .box1{
+  border: 1px solid red;
   margin-top: -2.5px;
-  background-image: linear-gradient(to bottom right, rgb(241, 237, 108), rgb(16, 75, 56));;
+  background-image: linear-gradient(to bottom right, rgb(108, 194, 241), rgb(56, 75, 16));;
   width: 30%;
   height: 602px;
 }
 
 .box1-1{
   background-image: url(/asset/Profile1.png);
-  margin-top: 20px;
+  margin-top: 80px;
   margin-left: 25px;
   margin-right: 20px;
   clip-path: circle();
@@ -33,14 +34,14 @@ p{
 }
 
 .box1-2{
-  margin-left: 105px;
+  margin-left: 115px;
   margin-top: 10px;
   width: 300px;
   height: 50px;
 }
 
 .box1-3{
-  margin-left: 130px;
+  margin-left: 138px;
   width: 300px;
   height: 30px;
 }
@@ -51,6 +52,7 @@ p{
 }
 
 .box2{
+  border: 1px solid blue;
   width: 70%;
   height: 600px;
 }
