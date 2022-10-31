@@ -55,14 +55,14 @@ ul{
     color: white;
     text-decoration: none;
     font-weight: 300;
-    color:black;
+    color: #EEEEEE;
     display: block;
     transform: all 0.3s ease;
     transition: color .15s ease-in-out;
 }
 
 .fo-col ul li a:hover{
-    color: #fff;
+    color: #e9e663;
 }
 
 .fo-col .social-links a{
