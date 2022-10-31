@@ -41,6 +41,7 @@ nav ul li a{
   font-size: 18px;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
+  transition: color .2s ease-in-out;
 }
 
 nav ul li a:hover{
@@ -54,3 +55,9 @@ img{
   margin-left: -50px ;
 }
 
+@media (max-width: 1000px)
+{
+ nav label.logo{
+  font-size: 30px;
+ }
+}
