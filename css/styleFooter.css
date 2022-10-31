@@ -58,6 +58,7 @@ ul{
     color:black;
     display: block;
     transform: all 0.3s ease;
+    transition: color .15s ease-in-out;
 }
 
 .fo-col ul li a:hover{
