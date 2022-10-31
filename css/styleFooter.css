@@ -3,7 +3,6 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
-
 *{
     margin:0;
     padding:0;
@@ -82,14 +81,14 @@ ul{
     background-color: #ffff;
 }
 
-@media(max-width: 767px){
+@media(max-width: 1000px){
     .fo-col{
         width: 50%;
         margin-bottom: 30px;
     }
 }
 
-@media(max-width: 574px){
+@media(max-width: 500px){
     .fo-col{
         width: 100px;
     }
