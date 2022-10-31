@@ -1,5 +1,61 @@
-.box1{
+.wrapper{
   border: 1px solid red;
-  height: 200px;
+  height: 600px;
   width: 100%;
+}
+
+.flex{
+  display: flex;
+  width: 100%;
+}
+
+.box1{
+  background-image: linear-gradient(to bottom right, rgb(108, 241, 201), rgb(91, 91, 174));;
+  border: 1px solid blue;
+  width: 30%;
+  height: 600px;
+}
+
+.box1-1{
+  background-image: url(/asset/profile.jpg);
+  margin-top: 20px;
+  margin-left: 65px;
+  margin-right: 20px;
+  width: 800px;
+  height: 400px;
+  border: 1px solid red;
+}
+
+p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 45px;
+  color: rgb(214, 212, 212);
+  font-weight: bold;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.box1-2{
+  margin-left: 75px;
+  margin-top: 30px;
+  width: 65%;
+  height: 30px;
+  border: 1px solid red;
+}
+
+.box1-3{
+  margin-left: 105px;
+  margin-top: 30px;
+  width: 60%;
+  height: 30px;
+  border: 1px solid red;
+}
+
+.profession{
+  font-size: ;
+}
+
+.box2{
+  border: 1px solid green;
+  width: 70%;
+  height: 600px;
 }
