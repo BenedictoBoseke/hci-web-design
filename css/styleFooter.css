@@ -22,7 +22,7 @@ ul{
 }
 
 .footer{
-    background:rgba(147, 179, 215, 0.909);
+    background:#B20600;
     padding: 75px 0;
 }
 .fo-col{
@@ -58,6 +58,7 @@ ul{
     color:black;
     display: block;
     transform: all 0.3s ease;
+    transition: color .15s ease-in-out;
 }
 
 .fo-col ul li a:hover{
