@@ -56,7 +56,6 @@ p{
 
 .box2{
   background-image: linear-gradient(to bottom right, rgb(241, 225, 184), rgb(189, 225, 235));
-  border: 1px solid blue;
   width: 75%;
   height: 600px;
   margin-right: 8px;
@@ -65,23 +64,13 @@ p{
   box-shadow: 0 5px 10px black;
 }
 
-.box2-1{
-  border: 1px solid blue;
-}
-
 .box2-2{
-  border: 1px solid red;
   width: 100%;
   height: 240px;
   margin-right: 20px;
 }
 
-.box2-3{
-  border: 1px solid blue;
-}
-
 .box2-4{
-  border: 1px solid red;
   width: 100%;
   height: 250px;
   margin-right: 20px;
@@ -131,12 +120,41 @@ h1{
   margin-right: 15px;
 }
 .h_twitter{
-  margin-right: 130px;
+  margin-left: -40px;
 }
 
 .twitter{
-  position: absolute;
-  width: 80px;
-  margin-top: -17px;
-  margin-left: 7px;
+  width: 70px;
+  margin-top: -10px;
+  margin-left: 95px;
+}
+
+.h_facebook{
+  margin-right: 165px;
+}
+
+.facebook{
+  width: 55px;
+  margin-top: -8px;
+  margin-left: 17px;
+}
+
+.h_instagram{
+  margin-left: 40px;
+}
+
+.instagram{
+  width: 100px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+.h_line{
+  margin-right: 290px;
+}
+
+.line{
+  width: 100px;
+  margin-top: -10px;
+  margin-left: 120px;
 }
