@@ -1,5 +1,5 @@
 .wrapper{
-  height: 600px;
+  height: 610px;
   width: 100%;
 }
 
@@ -9,11 +9,14 @@
 }
 
 .box1{
-  border: 1px solid red;
-  margin-top: -2.5px;
-  background-image: linear-gradient(to bottom right, rgb(108, 194, 241), rgb(56, 75, 16));;
-  width: 30%;
-  height: 602px;
+  margin-bottom: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+  background-image: linear-gradient(to bottom right, rgb(180, 221, 244), rgb(140, 171, 30));
+  width: 25%;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px black;
+  
 }
 
 .box1-1{
@@ -34,14 +37,14 @@ p{
 }
 
 .box1-2{
-  margin-left: 115px;
+  margin-left: 80px;
   margin-top: 10px;
   width: 300px;
   height: 50px;
 }
 
 .box1-3{
-  margin-left: 138px;
+  margin-left: 100px;
   width: 300px;
   height: 30px;
 }
@@ -52,9 +55,14 @@ p{
 }
 
 .box2{
+  background-image: linear-gradient(to bottom right, rgb(180, 221, 244), rgb(41, 231, 95));
   border: 1px solid blue;
-  width: 70%;
+  width: 75%;
   height: 600px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px black;
 }
 
 .box2-2{
