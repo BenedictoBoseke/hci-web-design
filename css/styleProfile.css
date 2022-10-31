@@ -12,7 +12,7 @@
   margin-bottom: 8px;
   margin-left: 8px;
   margin-right: 8px;
-  background-image: linear-gradient(to bottom right, rgb(180, 221, 244), rgb(140, 171, 30));
+  background-image: linear-gradient(to bottom right, rgb(244, 215, 180), rgb(82, 30, 171));
   width: 25%;
   border-radius: 10px;
   box-shadow: 0 5px 10px black;
@@ -55,7 +55,7 @@ p{
 }
 
 .box2{
-  background-image: linear-gradient(to bottom right, rgb(180, 221, 244), rgb(41, 231, 95));
+  background-image: linear-gradient(to bottom right, rgb(241, 225, 184), rgb(189, 225, 235));
   border: 1px solid blue;
   width: 75%;
   height: 600px;
