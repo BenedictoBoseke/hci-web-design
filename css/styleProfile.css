@@ -12,10 +12,10 @@
   margin-bottom: 8px;
   margin-left: 8px;
   margin-right: 8px;
-  background-image: linear-gradient(to bottom right, rgb(244, 215, 180), rgb(82, 30, 171));
+  border: 1px solid red;
   width: 25%;
   border-radius: 10px;
-  box-shadow: 0 5px 10px black;
+  box-shadow: 5 5px  5px 10px black;
   
 }
 
