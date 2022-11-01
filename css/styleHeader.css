@@ -24,6 +24,10 @@ nav label.logo{
   font-weight: bold;
 }
 
+nav label.logo:hover{
+  src: local('asset/BeliSkuy-logos_yellow.png');
+}
+
 nav ul
 {
   float: right;
