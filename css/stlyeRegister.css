@@ -1,0 +1,9 @@
+.wrapper{
+  height: 610px;
+  width: 100%;
+  border: 2px dashed black;
+  background-image: url(/asset/registerPage.jpg);
+  background-size: cover;
+}
+
+
