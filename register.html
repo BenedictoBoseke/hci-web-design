@@ -26,27 +26,61 @@
   </header> 
 
   <div class="wrapper">
-    <form action="/" method="GET">
-      <label for="username">Username :</label>
-      <input type="text" id="username"> <br>
+    <form id="fillForm" action="/">
+      <h1>Registration</h1>
+      <div class="input-data">
+        <label for="username">Username :</label>
+        <input type="text" id="username" name="username"> <br>
+        <div class="errorMessage"></div>
+      </div>
 
-      <label for="email">Email :</label>
-      <input type="email" id="email"> <br>
+      <div class="input-data">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="username"> <br>
+        <div class="errorMessage"></div>
+      </div>
+      
 
-      <label for="password">Password :</label>
-      <input type="password" id="password"> <br>
+      <div class="input-data">
+        <label for="password">Password :</label>
+        <input type="password" id="password" name="password"> <br>
+        <div class="errorMessage"></div>
+      </div>
 
-      <label for="confPassword">Confirm - Password :</label>
-      <input type="password" id="password"> <br>
-
-      <label for="date">Date :</label>
-      <input type="date" id="date"> <br>
-
-      <label for="gender">Gender :</label> <br>
-      <input type="radio" id="male" name="gender"> <label for="male">Male</label> 
-      <input type="radio" id="female" name="gender"> <label for="female">Female</label> <br>
-
-      <input type="checkbox" id="agreement"> <label for="agreement">I agree to the terms and conditions and the privacy policy</label>
+      <div class="input-data">
+        <label for="confPassword">Confirm - Password :</label>
+        <input type="password" id="password2" name="password2"> <br>
+        <div class="errorMessage"></div>
+      </div>
+      
+      <div class="input-data">
+        <label for="date">Date :</label>
+        <input type="date" id="date" name="date"> <br>
+        <div class="errorMessage"></div>
+      </div>
+      
+      <div class="input-data">
+        <label for="gender">Gender :</label> <br>
+        <div class="container">
+          <div class="genderBox">
+            <input type="radio" id="male" name="gender">
+            <label for="male">Male</label> 
+          </div>
+          <div class="genderBox">
+            <input type="radio" id="female" name="gender"> 
+            <label for="female">Female</label>
+          </div>
+        </div>
+         <br>
+        <div class="errorMessage"></div>
+      </div>
+      
+      <div class="input-data">
+        <input type="checkbox" id="agreement"> <label for="agreement">I agree to the terms and conditions and the privacy policy</label>
+        <div class="errorMessage"></div>
+      </div>
+      
+      <button type="submit">Register</button>
     </form>
   </div>
 

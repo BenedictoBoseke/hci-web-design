@@ -1,9 +1,67 @@
 .wrapper{
-  height: 610px;
+  height: 1200px;
   width: 100%;
-  border: 2px dashed black;
   background-image: url(/asset/registerPage.jpg);
   background-size: cover;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#fillForm{
+  width: 500px;
+  height: 1000px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  padding: 40px;
+  background-color: whitesmoke;
+  border-radius: 7px;
+  font-size: 20px;
+}
 
+h1{
+  color: rgb(41, 41, 41);
+  text-align: center;
+  width: 100%;
+}
+
+button{
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  color: white;
+  background-color: rgb(86, 86, 86);
+  border-radius: 5px;
+}
+
+.input-data{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  border: 2px solid black;
+  border-radius: 5px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  width: 100%;
+}
+
+.errorMessage{
+  color: red;
+  height: 13px;
+  font-size: 9px;
+}
+
+.container{
+  width: 100%;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+}
+
+.genderBox{
+  border: 1px solid red;
+  width: 150px;
+}
