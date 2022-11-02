@@ -4,18 +4,20 @@
 }
 
 .flex{
+  margin-top: 10px;
   display: flex;
   width: 100%;
 }
 
 .box1{
+  background-color: rgb(231, 213, 81);
   margin-bottom: 8px;
   margin-left: 8px;
   margin-right: 8px;
-  border: 1px solid red;
+  background-image: linear-gradient(to bottom right, rgb(244, 238, 222), rgb(234, 241, 243));
   width: 25%;
   border-radius: 10px;
-  box-shadow: 5 5px  5px 10px black;
+  box-shadow: 0 5px 10px black;
   
 }
 
@@ -30,7 +32,7 @@
 
 p{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(214, 212, 212);
+  color: rgb(54, 53, 53);
   font-weight: bold;
   font-size: 25px;
   text-transform: capitalize;
@@ -55,10 +57,11 @@ p{
 }
 
 .box2{
-  background-image: linear-gradient(to bottom right, rgb(241, 225, 184), rgb(189, 225, 235));
+  background-image: linear-gradient(to bottom right, rgb(244, 238, 222), rgb(234, 241, 243));
   width: 75%;
   height: 600px;
-  margin-right: 8px;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-bottom: 8px;
   border-radius: 10px;
   box-shadow: 0 5px 10px black;

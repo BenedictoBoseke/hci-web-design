@@ -13,7 +13,7 @@ body{
 nav{
   width: 100%;
   height: 75px;
-  background: #B20600 ;
+  background: #2c2c2c ;
 }
 
 nav label.logo{
@@ -22,10 +22,6 @@ nav label.logo{
   line-height: 75px;
   padding: 0px 60px;
   font-weight: bold;
-}
-
-nav label.logo:hover{
-  src: local('asset/BeliSkuy-logos_yellow.png');
 }
 
 nav ul
@@ -50,7 +46,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-  color: #e9e663;
+  color: rgb(15, 227, 61);
 }
 
 img{

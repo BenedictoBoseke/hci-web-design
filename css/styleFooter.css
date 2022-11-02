@@ -22,7 +22,7 @@ ul{
 }
 
 .footer{
-    background:#B20600;
+    background: #2c2c2c ;
     padding: 75px 0;
 }
 .fo-col{
@@ -42,7 +42,7 @@ ul{
     position: absolute;
     left: 0;
     bottom: -10px;
-    background-color: #e9e663;
+    background-color: #f0f0e9;
     height: 2px;
     box-sizing: border-box;
     width: 50px;
@@ -62,7 +62,7 @@ ul{
 }
 
 .fo-col ul li a:hover{
-    color: #e9e663;
+    color: rgb(15, 227, 61);
 }
 
 .fo-col .social-links a{
