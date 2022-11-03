@@ -123,13 +123,14 @@ h1{
   margin-right: 15px;
 }
 .h_twitter{
-  margin-left: -40px;
+  margin-left: -38px;
 }
 
 .twitter{
+  position: absolute;
   width: 70px;
-  margin-top: -10px;
-  margin-left: 95px;
+  margin-top: -15px;
+  margin-left: 55px;
 }
 
 .h_facebook{
@@ -139,7 +140,9 @@ h1{
 .facebook{
   width: 55px;
   margin-top: -8px;
-  margin-left: 17px;
+  margin-left: 15px;
+  position: absolute;
+  
 }
 
 .h_instagram{
@@ -147,17 +150,19 @@ h1{
 }
 
 .instagram{
+  position: absolute;
   width: 100px;
   margin-top: -10px;
-  margin-left: 10px;
+  margin-left:-30px;
 }
 
 .h_line{
-  margin-right: 290px;
+  margin-right: 289px;
 }
 
 .line{
+  position: absolute;
   width: 100px;
-  margin-top: -10px;
+  margin-top: -15px;
   margin-left: 120px;
 }

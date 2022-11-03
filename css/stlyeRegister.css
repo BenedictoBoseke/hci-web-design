@@ -8,13 +8,14 @@
 
 #fillForm{
   width: 500px;
-  height: 1000px;
+  height: 930px;
   position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
   padding: 40px;
   background-color: whitesmoke;
+  opacity: 0.9;
   border-radius: 7px;
   font-size: 20px;
 }
@@ -26,21 +27,24 @@ h1{
 }
 
 button{
+  margin-top: -10px;
   padding: 10px;
-  margin-top: 10px;
   width: 100%;
   color: white;
   background-color: rgb(86, 86, 86);
   border-radius: 5px;
+  font-size: 20px;
 }
 
 .input-data{
   display: flex;
   flex-direction: column;
+  
+  height: 110px;
 }
 
 input{
-  border: 2px solid black;
+  border: 2px solid rgb(193, 193, 193);
   border-radius: 5px;
   display: block;
   font-size: 12px;
@@ -49,19 +53,63 @@ input{
 }
 
 .errorMessage{
+  margin-top: 10px;
   color: red;
-  height: 13px;
-  font-size: 9px;
+  font-weight: bold;
+  height: 20px;
+  font-size: 18px;
 }
 
-.container{
-  width: 100%;
-  border: 1px solid blue;
-  display: flex;
-  justify-content: space-between;
+.errorMessage1{
+  position: absolute;
+  margin-top: 83px;
+  color: red;
+  font-weight: bold;
+  height: 20px;
+  font-size: 18px;
 }
 
-.genderBox{
-  border: 1px solid red;
-  width: 150px;
+.errorMessage2{
+  position: absolute;
+  margin-top: 40px;
+  color: red;
+  font-weight: bold;
+  height: 20px;
+  font-size: 18px;
+}
+
+.checkBoxx
+{
+  position: absolute;
+  right:41%;
+  margin-top: 15px;
+}
+
+.checkBoxx1{
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 20px;
+}
+
+.genderBox1{
+  width: 140px;
+  height: 20px;
+}
+
+.genderBox2{
+  position: absolute;
+  width: 170px;
+  margin-top: 60px;
+  margin-left: 270px;
+}
+
+.boxMale{
+  position: absolute;
+  margin-top: -10px;
+}
+
+.boxFemale{
+  position: absolute;
+  margin-top: -10px;
+  
 }

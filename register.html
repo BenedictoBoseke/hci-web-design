@@ -30,54 +30,52 @@
       <h1>Registration</h1>
       <div class="input-data">
         <label for="username">Username :</label>
-        <input type="text" id="username" name="username"> <br>
+        <input type="text" id="username" name="username"> 
         <div class="errorMessage"></div>
       </div>
 
       <div class="input-data">
         <label for="email">Email :</label>
-        <input type="email" id="email" name="username"> <br>
+        <input type="email" id="email" name="username">
         <div class="errorMessage"></div>
       </div>
       
-
       <div class="input-data">
         <label for="password">Password :</label>
-        <input type="password" id="password" name="password"> <br>
+        <input type="password" id="password" name="password"> 
         <div class="errorMessage"></div>
       </div>
 
       <div class="input-data">
         <label for="confPassword">Confirm - Password :</label>
-        <input type="password" id="password2" name="password2"> <br>
+        <input type="password" id="password2" name="password2">
         <div class="errorMessage"></div>
       </div>
       
       <div class="input-data">
         <label for="date">Date :</label>
-        <input type="date" id="date" name="date"> <br>
+        <input type="date" id="date" name="date">
         <div class="errorMessage"></div>
       </div>
       
       <div class="input-data">
-        <label for="gender">Gender :</label> <br>
-        <div class="container">
-          <div class="genderBox">
-            <input type="radio" id="male" name="gender">
-            <label for="male">Male</label> 
+        <label for="gender-1">Gender :</label> <br>
+          <div class="genderBox1">
+            <label class="boxMale" for="gender">Male</label> 
+            <input  type="radio" id="gender" name="kelamin">
           </div>
-          <div class="genderBox">
-            <input type="radio" id="female" name="gender"> 
-            <label for="female">Female</label>
-          </div>
+          <div class="genderBox2">
+            <label class="boxFemale" for="gender">Female</label>
+            <input  type="radio" id="gender" name="kelamin"> 
         </div>
          <br>
-        <div class="errorMessage"></div>
+        <div class="errorMessage1"></div>
       </div>
       
       <div class="input-data">
-        <input type="checkbox" id="agreement"> <label for="agreement">I agree to the terms and conditions and the privacy policy</label>
-        <div class="errorMessage"></div>
+        <input class="checkBoxx" type="checkbox" id="agreement"> 
+        <label class="checkBoxx1" for="agreement">I agree to the terms and conditions</label>
+        <div class="errorMessage2"></div>
       </div>
       
       <button type="submit">Register</button>
