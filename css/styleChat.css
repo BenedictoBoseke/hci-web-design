@@ -1,90 +1,18 @@
-.pembungkus{
-    padding: 180px;
-
-}
-
-.wrapper{
-    border: 1px solid black;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    border-radius: 12px;
-    box-shadow: var(-N700, rgba(49,53,59,0,12)) 0px 1px 6px 0px;
-
-
-}
-
-.flex1{
-    display: flex;
-    width:30%;
+.content{
     height: 1000px;
-    border: 5px solid green;
-    flex-direction: column;
-
-}
-
-.flex1-1{
-    display: flex;
-    border: 5px solid purple;
     width: 100%;
-    height: 20%;
-    flex-direction: column;
-
-}
-.flex1-1-1{
+    background-color: white;
     display: flex;
-    border: 5px solid grey;
-    width: 100%;
-    height: 50%;
-    flex-direction: column;
-
+    align-items: center;
+    justify-content: center;
 }
 
-.flex1-1-2{
-    display: flex;
-    border: 2px solid red;
-    width: 100%;
-    height: 50%;
-    flex-direction: row;
-
-}
-
-.flex1-1-2-1{
-    display: flex;
-    border: 2px solid grey;
-    width: 70%;
-    height: 65%;
-    margin-top: 18px;
-    margin-left: 25px;
-    border-radius: 10px 0px 0px 10px;
-    padding: 2%;
-    font-size: 10px;
-
-}
-
-.flex1-1-2-2{
-    border: 2px solid grey;
-    width: 13%;
-    height: 55%;
-    margin-top: 18px;
-    border-radius: 0px 10px 10px 0px;
-
-
-}
-
-.flex1-2{
-    border: 5px solid yellow;
-    width: 100%;
+.inside-content{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2rem;
     height: 80%;
-    padding: 15px;
-}
-
-.penjual1{
-    display: flex;
-    border: 5px solid black;
-    width: 100%;
-    height: 12%;
-    flex-direction: row;
+    width: 50%;
 
 }
 
@@ -96,121 +24,56 @@
     height: 100%;
 }
 
-.penjual2-tengah{
-    border: 3px solid red;
-    width: 65%;
-    height: 100%;
-}
-
-.namatoko2{
-    border: 2px solid orange;
-    width: 100%;
-    height: 60%;
+.search-content{
+    border-right: 1px solid black;
+    width: 30%;
 
 }
 
-.chatpenjual2{
-    border: 2px solid orange;
-    width: 100%;
-    height: 40%;
-
-
-}
-.penjual2-kanan{
-    border: 3px solid red;
-    width: 10%;
-    height: 100%;
-}
-
-.flex2{
-    width: 70%;
-    height: 1000px;
-    border: 5px solid blue;
-}
-
-.flex2-1{
-    display: flex;
-    border: 3px solid red;
-    width: 100%;
+.Top{
+    border: 1px solid blue;
     height: 15%;
-    flex-direction: row;
 }
-
-.flex2-PP{
-    border: 3px solid green;
-    width: 20%;
-    height: 100%;
-
-}
-.flex2-statustoko{
-    border: 3px solid green;
-    width: 100%;
-    height: 100%;
-
-}
-
-.flex2-namatoko{
-    border: 3px solid blueviolet;
-    width: 100%;
+.SC1{
     height: 50%;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid orange;
 }
 
-.flex2-lastonlinetoko{
-    border: 3px solid blueviolet;
-    width: 100%;
+.SC2{
+    border: 1px solid red;
     height: 50%;
-
-}
-
-.flex2-2{
-    border: 3px solid red;
-    width: 100%;
-    height: 85%;
-
-}
-
-.flex2-chat{
-    border: 3px solid black;
-    width: 100%;
-    height: 83%;
-
-}
-
-.flex2-bagian-pesan{
-    border: 5px solid black;
-    width: 100%;
-    height: 17%;
-
-}
-.flex2-opsi{
-    border: 5px solid teal;
-    width: 100%;
-    height: 40%;
-
-}
-
-.flex2-tulispesan{
     display: flex;
-    border: 5px solid teal;
-    width: 100%;
-    height: 60%;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#logosettings{
+    border: 1px solid green;
+    width: 2rem;
 
 }
 
-.ketikchat{
-    display: flex;
-    border: 3px solid orange;
-    width: 90%;
-    height: 100%;
-    flex-direction: row;
 
+.find{
+    height: 50%;
+    width: 50%;
+    border: 1px solid green;
 }
 
-.emo{
-    border: 3px solid orchid;
-    width: 10%;
-    height: 100%;
+.searchlogo{
+    border: 1px solid indigo;
+    width: 2rem;
+    height: 50%;
+}
 
+#logosearch{
+    position:absolute;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 2rem;
 }
