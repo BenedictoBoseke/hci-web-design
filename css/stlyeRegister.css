@@ -39,7 +39,6 @@ button{
 .input-data{
   display: flex;
   flex-direction: column;
-  
   height: 110px;
 }
 
