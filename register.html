@@ -9,7 +9,6 @@
   <link rel="stylesheet" href="./css/styleHeader.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" href="./css/styleFooter.css">
-  <script defer src="./javascript/register.js"></script>
 </head>
 <body>
   <header>
@@ -26,7 +25,7 @@
   </header> 
 
   <div class="wrapper">
-    <form id="fillForm" action="/">
+    <form id="fillForm" action="/" method="post">
       <h1>Registration</h1>
       <div class="input-data">
         <label for="username">Username :</label>
@@ -80,6 +79,7 @@
       
       <button type="submit">Register</button>
     </form>
+    <script src="./javascript/register.js"></script>
   </div>
 
   <footer class="footer">
@@ -119,5 +119,6 @@
         </div>
     </div>
   </footer>
+  
 </body>
 </html>
