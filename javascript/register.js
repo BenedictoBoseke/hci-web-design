@@ -26,7 +26,7 @@ const setError = (element, message) =>{
 const setSuccess = element =>
 {
   const inputControl = element.parentElement;
-  const errorDisplay = inputControl.querySelector(.'errorMessage');
+  const errorDisplay = inputControl.querySelector('errorMessage');
 
   errorDisplay.innerText= '';
   inputControl.classList.add('success');
