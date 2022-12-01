@@ -54,11 +54,13 @@ body {
     text-align: center;
 }
 
-.about {}
-
 .whitetshirt {
-    height: 25%;
-    width: auto;
+    height: auto;
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 5px;
 }
 
 .title {
