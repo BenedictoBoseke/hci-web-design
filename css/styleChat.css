@@ -88,52 +88,11 @@
 
 }
 
-.penjual1-kiri{
+.inside-content-box{
+
     display: flex;
-    border: 3px solid red;
-    width: 25%;
-    height: 100%;
-}
-
-.penjual1-tengah{
-    border: 3px solid red;
-    width: 65%;
-    height: 100%;
-}
-
-.namatoko1{
-    border: 2px solid orange;
-    width: 100%;
-    height: 60%;
-
-}
-
-.chatpenjual1{
-    border: 2px solid orange;
-    width: 100%;
-    height: 40%;
-
-
-}
-.penjual1-kanan{
-    border: 3px solid red;
-    width: 10%;
-    height: 100%;
-}
-
-.penjual2{
-    display: flex;
-    border: 5px solid black;
-    width: 100%;
-    height: 12%;
-    margin-top: 20px;
     flex-direction: row;
-}
-
-.penjual2-kiri{
-    display: flex;
-    border: 3px solid red;
-    width: 25%;
+    justify-content: flex-start;
     height: 100%;
 }
 
@@ -255,24 +214,3 @@
     height: 100%;
 
 }
-.tulisan{
-    border: 3px solid orchid;
-    width: 80%;
-    height: 100%;
-
-}
-
-.tandaplus{
-    border: 3px solid orchid;
-    width: 10%;
-    height: 100%;
-}
-
-.send{
-    border: 5px solid palegreen;
-    width: 10%;
-    height: 100%;
-
-}
-
-
