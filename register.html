@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register</title>
-  <link rel="stylesheet" href="./css/stlyeRegister.css">
-  <link rel="stylesheet" href="./css/styleHeader.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-  <link rel="stylesheet" href="./css/styleFooter.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/stlyeRegister.css">
+    <link rel="stylesheet" href="./css/styleHeader.css">
+    <link rel="stylesheet" href="./css/styleFooter.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    
 </head>
 <body>
   <header>
@@ -22,64 +23,70 @@
         <li><a href="profile.html">Profile</a></li>
       </ul>
     </nav>
-  </header> 
-
-  <div class="wrapper">
-    <form id="fillForm" action="/" method="post">
-      <h1>Registration</h1>
-      <div class="input-data">
-        <label for="username">Username :</label>
-        <input type="text" id="username" name="username"> 
-        <div class="errorMessage"></div>
-      </div>
-
-      <div class="input-data">
-        <label for="email">Email :</label>
-        <input type="email" id="email" name="username">
-        <div class="errorMessage"></div>
-      </div>
-      
-      <div class="input-data">
-        <label for="password">Password :</label>
-        <input type="password" id="password" name="password"> 
-        <div class="errorMessage"></div>
-      </div>
-
-      <div class="input-data">
-        <label for="confPassword">Confirm - Password :</label>
-        <input type="password" id="password2" name="password2">
-        <div class="errorMessage"></div>
-      </div>
-      
-      <div class="input-data">
-        <label for="date">Date :</label>
-        <input type="date" id="date" name="date">
-        <div class="errorMessage"></div>
-      </div>
-      
-      <div class="input-data">
-        <label for="gender-1">Gender :</label> <br>
-          <div class="genderBox1">
-            <label class="boxMale" for="gender">Male</label> 
-            <input  type="radio" id="gender" name="kelamin">
+  </header>
+  
+  <div class="container1">
+      <div class="register-box">
+          <div class="form-top">
+              <h2>Registration</h2>
           </div>
-          <div class="genderBox2">
-            <label class="boxFemale" for="gender">Female</label>
-            <input  type="radio" id="gender" name="kelamin"> 
-        </div>
-         <br>
-        <div class="errorMessage1"></div>
-      </div>
-      
-      <div class="input-data">
-        <input class="checkBoxx" type="checkbox" id="agreement"> 
-        <label class="checkBoxx1" for="agreement">I agree to the terms and conditions</label>
-        <div class="errorMessage2"></div>
-      </div>
-      
-      <button type="submit">Register</button>
-    </form>
-    <script src="./javascript/register.js"></script>
+
+          <form action=""  id="form" class="form" method="GET">
+              <div class="form-control">
+                  <label for="username">Username</label>
+                  <input type="text" placeholder="George Doncic"     id="username">
+                  <small>At least 2 character</small>
+              </div>
+
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input type="email" placeholder="George@gmail.com" id="email">
+                <small>Error message</small>
+              </div>
+
+              <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" placeholder="Enter Your Password" id="password">
+                <small>Error message</small>
+              </div>
+              
+              <div class="form-control">
+                <label for="password2">Confirm - Password</label>
+                <input type="password" placeholder="Enter Again Your Password" id="password2">
+                <small>Error message</small>
+              </div>
+
+              <div class="form-control">
+                  <label for="date">Date</label>
+                  <input type="date" id="date">
+                  <small>Error message</small>
+              </div>
+
+              <div class="form-control">
+                  <label for="gender">Gender</label> <br>
+                  <div class="flex">
+                    <div class="male">
+                      <input type="radio" name="Gender" id="genderRadio">
+                      <label for="genderRadio">Male</label>
+                    </div>
+                    <div class="female">
+                      <input type="radio" name="Gender" id="genderRadio">
+                      <label for="genderRadio">Female</label>
+                    </div>
+                  </div>
+              </div>
+
+              <div class="form-control-agreement">
+                  <a href="#">Terms and Conditions</a> <br>
+                  <label for="agreement">
+                    <input type="checkbox" name="agreement" class="agreement" id="agreement" value="yes">
+                    <b> I agree to the terms and conditions</b>
+                  </label>
+              </div>    
+              <input type="submit" value="Submit" class="submit">   
+          </form>
+          <script src="./js/register.js"></script>    
+      </div>     
   </div>
 
   <footer class="footer">
@@ -114,11 +121,11 @@
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>                        
                     <a href="#"><i class="fab fa-twitter"></i></a>                        
-                    <a href="#"><i class="fab fa-instagram"></i></a>                                               
+                    <a href="#"><i class="fab fa-instagram"></i></a>                                           
             </div>
         </div>
     </div>
   </footer>
-  
+
 </body>
 </html>
