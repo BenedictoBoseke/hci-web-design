@@ -1,0 +1,145 @@
+.contentProducts
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(194, 232, 241);
+    height: 950px;
+    
+}
+
+.name{
+    color: rgb(0, 0, 0);
+}
+
+.container1{
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+}
+
+.container2{
+    margin-top: 40px;
+    width: 100%;
+    height: 400px;
+}
+
+.flex{
+    display: flex;
+}
+
+.boxProdcuts{
+    border-radius: 10px;
+    width: 25%;
+    height: 420px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgb(247, 246, 231);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.tittle1{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+
+}
+
+.tittle2{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.tittle3{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+}
+
+.tittle4{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.tittle5{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.tittle6{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.tittle7{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+}
+
+.tittle8{
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center;
+}
+
+.price{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+.btn{
+    text-align: center;
+    margin-left: 45px;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: rgb(153, 237, 153);
+    cursor: pointer;
+}
+
+.btn a{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.btn a:hover{
+    color: rgb(123, 124, 112);
+    transition: 0.5s;
+}
+
+.produk{
+    margin-top: 5px;
+    width: 250px;
+    height: 280px;
+    margin-left: 50px;
+}
+
