@@ -1,278 +1,253 @@
-.pembungkus{
-    padding: 180px;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
 }
 
-.wrapper{
-    border: 1px solid black;
-    width: 100%;
-    height: 100%;
+.box{
     display: flex;
-    border-radius: 12px;
-    box-shadow: var(-N700, rgba(49,53,59,0,12)) 0px 1px 6px 0px;
-
-
-}
-
-.flex1{
-    display: flex;
-    width:30%;
+    align-items: center;
+    justify-content: center;
     height: 1000px;
-    border: 5px solid green;
-    flex-direction: column;
+    width: 100%;
+    background: #f7f7f7;
 
 }
 
-.flex1-1{
+.wrapper-1{
+    background: #fff;
+    width: 400px;
+    height: 700px;
+    border-radius: 16px 0px 0px 16px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.profile-box{
+    padding: 25px 30px;
+}
+
+.profile-box header,
+.profile-list a{
     display: flex;
-    border: 5px solid purple;
-    width: 100%;
-    height: 20%;
-    flex-direction: column;
-
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+    border-bottom: 1px solid #e6e6e6;
 }
-.flex1-1-1{
+
+.wrapper-1 img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+:is(.profile-box, .profile-list) .content{
     display: flex;
-    border: 5px solid grey;
-    width: 100%;
-    height: 50%;
-    flex-direction: column;
-
+    align-items: center;
 }
 
-.flex1-1-2{
+.profile-box header .content img{
+    height: 50px;
+    width: 50px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+:is(.profile-box, .profile-list) .details{
+    color: #000;
+    margin-left: 15px;
+}
+
+:is(.profile-box, .profile-list) .details span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profile-box .search{
+    margin-top: 15px;
+    margin-right: 5px;
     display: flex;
-    border: 2px solid red;
-    width: 100%;
-    height: 50%;
-    flex-direction: row;
-
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.flex1-1-2-1{
+.profile-box .search input{
+    position: absolute;
+    height: 42px;
+    width: calc(100% - 50px);
+    border: 1px solid  #ccc;
+    padding: 0 13px;
+    font-size: 16px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.profile-box .search button{
+    width: 47px;
+    height: 42px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background:  #333;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 85%;
+}
+
+.profile-list{
+    max-height: 450px;
+    overflow-y: auto;
+    margin-top: 15px;
+}
+
+.profile-list::-webkit-scrollbar{
+    width: 0px;
+}
+
+.profile-list a{
+    margin-bottom: 15px;
+    page-break-after: 10px;
+    padding-right: 15px;
+    border-block-color: #f1f1f1;
+}
+
+.profile-list a:last-child{
+    border: none;
+    margin-bottom: 0px;
+}
+
+.profile-list a .content img{
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.profile-list a .content p{
+    color: #67676a;
+}
+
+.profile-list a .status-point{
+    font-size: 12px;
+    color: #468669;
+}
+
+/* batas */
+
+.wrapper-2{
+    background: #fff;
+    width: 700px;
+    height: 700px;
+    border-radius: 0px 16px 16px 0px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.chat-box header{
     display: flex;
-    border: 2px solid grey;
-    width: 70%;
-    height: 65%;
-    margin-top: 18px;
-    margin-left: 25px;
-    border-radius: 10px 0px 0px 10px;
-    padding: 2%;
-    font-size: 10px;
-
+    align-items: center;
+    padding: 18px 30px;
 }
 
-.flex1-1-2-2{
-    border: 2px solid grey;
-    width: 13%;
-    height: 55%;
-    margin-top: 18px;
-    border-radius: 0px 10px 10px 0px;
-
-
+.chat-box header img{
+    height: 45px;
+    width: 45px;
+    margin: 0 15px;
 }
 
-.flex1-2{
-    border: 5px solid yellow;
-    width: 100%;
-    height: 80%;
-    padding: 15px;
+.wrapper-2 img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.chat-box header span{
+    font-size: 17px;
+    font-weight: 500;
 }
 
-.penjual1{
+.chat-box-1{
+    height: 500px;
+    overflow-y: auto;
+    background: #f7f7f7;
+    padding: 10px 30px 20px 30px;
+    box-shadow: inset 0 32px 32px -32px rgb(0 0 0 / 5%),
+                inset 0 -32px 32px -32px rgb(0 0 0 / 5%);
+}
+
+.chat-box-1 .chat{
+    margin: 17px 0;
+}
+
+.chat-box-1 .chat p{
+    word-wrap: break-word;
+    padding: 8px 16px;
+    box-shadow: 0 0 32 rgb(0 0 0 / 8%),
+                0 16px 16px -16px rgb(0 0 0 / 10%);;
+}
+
+.chat-box-1 .pembeli{
     display: flex;
-    border: 5px solid black;
-    width: 100%;
-    height: 12%;
-    flex-direction: row;
-
 }
 
-.penjual1-kiri{
+.pembeli .details{
+    margin-left: auto;
+    max-width: calc(100% - 130px);
+}
+
+.pembeli .details p{
+    background: #333;
+    color: #fff;
+    border-radius:  18px 18px 0 18px;
+}
+
+.chat-box-1 .penjual{
     display: flex;
-    border: 3px solid red;
-    width: 25%;
-    height: 100%;
+    align-items: flex-end;
+    margin-left: 27px;
 }
 
-.penjual1-tengah{
-    border: 3px solid red;
-    width: 65%;
-    height: 100%;
+.chat-box-1 .penjual img{
+    height: 35px;
+    width: 35px;
 }
 
-.namatoko1{
-    border: 2px solid orange;
-    width: 100%;
-    height: 60%;
+.penjual .details{
+    margin-left: 10px;
+    margin-right: auto;
+    max-width: calc(100% - 130px);
+}
+
+.penjual .details p{
+    color: #333;
+    background: #fff;
+    border-radius: 18px 18px 18px 0; 
 
 }
 
-.chatpenjual1{
-    border: 2px solid orange;
-    width: 100%;
-    height: 40%;
-
-
-}
-.penjual1-kanan{
-    border: 3px solid red;
-    width: 10%;
-    height: 100%;
-}
-
-.penjual2{
+.chat-box .typing-box{
+    padding: 18px 30px;
     display: flex;
-    border: 5px solid black;
-    width: 100%;
-    height: 12%;
-    margin-top: 20px;
-    flex-direction: row;
+    justify-content: space-between;
 }
 
-.penjual2-kiri{
-    display: flex;
-    border: 3px solid red;
-    width: 25%;
-    height: 100%;
+.typing-box input{
+    height: 45px;
+    width: calc(100% - 58px);
+    font-size: 17px;
+    border: 1px solid #ccc;
+    padding: 0 13px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
 }
 
-.penjual2-tengah{
-    border: 3px solid red;
-    width: 65%;
-    height: 100%;
+.typing-box button{
+    width: 55px;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
 }
-
-.namatoko2{
-    border: 2px solid orange;
-    width: 100%;
-    height: 60%;
-
-}
-
-.chatpenjual2{
-    border: 2px solid orange;
-    width: 100%;
-    height: 40%;
-
-
-}
-.penjual2-kanan{
-    border: 3px solid red;
-    width: 10%;
-    height: 100%;
-}
-
-.flex2{
-    width: 70%;
-    height: 1000px;
-    border: 5px solid blue;
-}
-
-.flex2-1{
-    display: flex;
-    border: 3px solid red;
-    width: 100%;
-    height: 15%;
-    flex-direction: row;
-}
-
-.flex2-PP{
-    border: 3px solid green;
-    width: 20%;
-    height: 100%;
-
-}
-.flex2-statustoko{
-    border: 3px solid green;
-    width: 100%;
-    height: 100%;
-
-}
-
-.flex2-namatoko{
-    border: 3px solid blueviolet;
-    width: 100%;
-    height: 50%;
-
-}
-
-.flex2-lastonlinetoko{
-    border: 3px solid blueviolet;
-    width: 100%;
-    height: 50%;
-
-}
-
-.flex2-2{
-    border: 3px solid red;
-    width: 100%;
-    height: 85%;
-
-}
-
-.flex2-chat{
-    border: 3px solid black;
-    width: 100%;
-    height: 83%;
-
-}
-
-.flex2-bagian-pesan{
-    border: 5px solid black;
-    width: 100%;
-    height: 17%;
-
-}
-.flex2-opsi{
-    border: 5px solid teal;
-    width: 100%;
-    height: 40%;
-
-}
-
-.flex2-tulispesan{
-    display: flex;
-    border: 5px solid teal;
-    width: 100%;
-    height: 60%;
-    flex-direction: row;
-
-}
-
-.ketikchat{
-    display: flex;
-    border: 3px solid orange;
-    width: 90%;
-    height: 100%;
-    flex-direction: row;
-
-}
-
-.emo{
-    border: 3px solid orchid;
-    width: 10%;
-    height: 100%;
-
-}
-.tulisan{
-    border: 3px solid orchid;
-    width: 80%;
-    height: 100%;
-
-}
-
-.tandaplus{
-    border: 3px solid orchid;
-    width: 10%;
-    height: 100%;
-}
-
-.send{
-    border: 5px solid palegreen;
-    width: 10%;
-    height: 100%;
-
-}
-
-
