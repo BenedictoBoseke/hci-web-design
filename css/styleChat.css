@@ -43,7 +43,12 @@
     border-radius: 50%;
 }
 
-:is(.profile-box, .profile-list) .content{
+.profile-box .content{
+    display: flex;
+    align-items: center;
+}
+
+.profile-list .content{
     display: flex;
     align-items: center;
 }
@@ -55,14 +60,49 @@
     margin-top: 0px;
 }
 
-:is(.profile-box, .profile-list) .details{
+.profile-box .details{
     color: #000;
     margin-left: 15px;
 }
 
-:is(.profile-box, .profile-list) .details span{
+.profile-list .details{
+    color: #000;
+    margin-left: 15px;
+}
+
+.profile-box .details span{
     font-size: 18px;
     font-weight: 500;
+}
+
+.profile-list .details span{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.details-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-direct{
+    font-style: italic;
+    color: #333;
+    text-decoration: underline;
+
+}
+
+.profile-box .details button{
+    width: 47px;
+    height: 47px;
+    border: none;
+    outline: none;
+    color: #333;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 70px;
 }
 
 .profile-box .search{
@@ -169,7 +209,7 @@
 }
 
 .chat-box-1{
-    height: 500px;
+    height: 530px;
     overflow-y: auto;
     background: #f7f7f7;
     padding: 10px 30px 20px 30px;
