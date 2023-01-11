@@ -1,7 +1,7 @@
 .contentProducts
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(194, 232, 241);
+    background-color: rgb(255, 255, 255);
     height: 950px;
     
 }
@@ -32,7 +32,7 @@
     height: 420px;
     margin-right: 10px;
     margin-left: 10px;
-    background-color: rgb(247, 246, 231);
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
@@ -121,14 +121,14 @@
     width: 70%;
     margin-top: 10px;
     padding: 8px;
-    background-color: rgb(153, 237, 153);
+    background-color: rgb(58,113,169);
     cursor: pointer;
 }
 
 .btn a{
     font-weight: bold;
     font-size: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .btn a:hover{
