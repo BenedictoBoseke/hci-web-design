@@ -1,4 +1,4 @@
-*{
+#header{
   margin: 0;
   padding: 0;
   list-style: none;
@@ -49,15 +49,9 @@ nav ul li a:hover{
   color: rgb(15, 227, 61);
 }
 
-img{
+#logo{
   width: 250px;
   margin-top: -87px;
-  margin-left: -50px ;
+  margin-left: -50px;
 }
 
-@media (max-width: 1000px)
-{
- nav label.logo{
-  font-size: 30px;
- }
-}
