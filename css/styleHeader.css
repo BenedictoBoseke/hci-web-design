@@ -40,6 +40,7 @@ nav ul li a{
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
+  text-decoration: none;
   color: #EEEEEE;
   margin: 5px;
   transition: color .2s ease-out;

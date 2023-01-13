@@ -13,8 +13,9 @@ h3{
     opacity: 0%;
 }
 
-.container{
+.container-body{
     width: 100%;
+    height: 600px;
     text-align: center;
 }
 
@@ -91,49 +92,49 @@ label:hover{
     opacity: 1;
 }
 
-#check1:checked ~ .container .photo-gallery .pic{
+#check1:checked ~ .container-body .photo-gallery .pic{
     opacity: 1;
     transform: scale(1);
     position: relative;
     transition: .5s;
 }
 
-#check2:checked ~ .container .photo-gallery .shoes{
+#check2:checked ~ .container-body .photo-gallery .shoes{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
 
-#check2:checked ~ .container .photo-gallery .pants,
-#check2:checked ~ .container .photo-gallery .clothes{
+#check2:checked ~ .container-body .photo-gallery .pants,
+#check2:checked ~ .container-body .photo-gallery .clothes{
     opacity: 0;
     transform: scale(0);
     position: absolute;
     transition: 0s;
 }
 
-#check3:checked ~ .container .photo-gallery .pants{
+#check3:checked ~ .container-body .photo-gallery .pants{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
 
-#check3:checked ~ .container .photo-gallery .shoes,
-#check3:checked ~ .container .photo-gallery .clothes{
+#check3:checked ~ .container-body .photo-gallery .shoes,
+#check3:checked ~ .container-body .photo-gallery .clothes{
     opacity: 0;
     transform: scale(0);
     position: absolute;
     transition: 0s;
 }
 
-#check4:checked ~ .container .photo-gallery .clothes{
+#check4:checked ~ .container-body .photo-gallery .clothes{
     transform: scale(1);
     opacity: 1;
     position: relative;
 }
 
-#check4:checked ~ .container .photo-gallery .shoes,
-#check4:checked ~ .container .photo-gallery .pants{
+#check4:checked ~ .container-body .photo-gallery .shoes,
+#check4:checked ~ .container-body .photo-gallery .pants{
     opacity: 0;
     transform: scale(0);
     position: absolute;
